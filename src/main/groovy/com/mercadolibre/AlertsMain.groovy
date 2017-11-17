@@ -12,7 +12,6 @@ class AlertsMain {
 		List<Alert> rawAlerts = csvReader.readFile("/Users/bhaslop/alerts-2017_11_16.csv")
 
 		ExcelService excelService = new ExcelService("alerts-20127_11_16")
-		//ExcelService excelService = null
 
 		createSummary(excelService, rawAlerts)
 
